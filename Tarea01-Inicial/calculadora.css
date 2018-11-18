@@ -1,0 +1,88 @@
+.calculadora {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3B6BD;
+    width: 430px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 15px 10px 6px #1d1c1c;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.pantalla {
+    font-family: 'digitize';
+    font-size: 2em;
+    align-self: auto;
+    text-align: right;
+    border-style: groove;
+    border-color: #5e5654;
+    background-color: #716360;
+    width: 90%;
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: 'digitize';
+    src: local('digitize'), url(fonts/digitize.ttf) format('truetype');
+}
+
+.textoLogoAlineacion {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.textoLogo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    size: 1.5em;
+    text-shadow: 2px 2px 1px #1d1c1c75;
+}
+
+.boton-numero {
+    border-radius: 8px;
+    color: #F3B6BD;
+    background-color: white;
+    font-size: 2em;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 8px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 3px 3px 3px #1d1c1c;
+}
+
+.boton-operaciones {
+    color: white;
+    background-color: #F3B6BD;
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 3px 3px 6px #1d1c1c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border-color: #252424;
+}
+
+.boton-manejo {
+    color: white;
+    background-color: #e51f40;
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 3px 3px 3px #1d1c1c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+#igual {
+    width: 150px;
+}
+
+#mas {
+    height: 90px;
+}
