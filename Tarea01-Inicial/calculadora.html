@@ -10,47 +10,52 @@
 
 <body>
     <div class="calculadora">
-        <input class="pantalla" type="text" readonly value="000000">
-        <div class="textoLogoAlineacion">
-            <img src="imagenes/cifp.png" alt="Logo CIFP">
-            <span class="textoLogo">La Laboral - Calc</span>
-        </div>
-        <div>
-            <div class="fila-boton-numerico">
-                <button class="boton-numero">9</button>
-                <button class="boton-numero">8</button>
-                <button class="boton-numero">7</button>
+        <input class="pantalla" type="text" readonly value="0">
+        <div class="logos">
+            <div class="logoIzquierda">
+                <img src="imagenes/cifp.png" alt="Logo CIFP">
             </div>
-            <div class="fila-boton-numerico">
-                <button class="boton-numero">6</button>
-                <button class="boton-numero">5</button>
-                <button class="boton-numero">4</button>
-            </div>
-            <div class="fila-boton-numerico">
-                <button class="boton-numero">3</button>
-                <button class="boton-numero">2</button>
-                <button class="boton-numero">1</button>
-            </div>
-            <div class="fila-boton-numerico">
-                <button class="boton-numero">0</button>
-                <button class="boton-numero">00</button>
-                <button class="boton-numero">.</button>
+            <div class="logoDerecha">
+                <span>La Laboral - Calc</span>
             </div>
         </div>
-        <div class="botonFila">
-            <div class="botonFila">
+        <div class="botonera">
+            <div class="izquierda">
+                <div class="fila-boton-numerico">
+                    <button class="boton-numero">9</button>
+                    <button class="boton-numero">8</button>
+                    <button class="boton-numero">7</button>
+                </div>
+                <div class="fila-boton-numerico">
+                    <button class="boton-numero">6</button>
+                    <button class="boton-numero">5</button>
+                    <button class="boton-numero">4</button>
+                </div>
+                <div class="fila-boton-numerico">
+                    <button class="boton-numero">3</button>
+                    <button class="boton-numero">2</button>
+                    <button class="boton-numero">1</button>
+                </div>
+                <div class="fila-boton-numerico">
+                    <button class="boton-numero">0</button>
+                    <button class="boton-numero">00</button>
+                    <button class="boton-numero">.</button>
+                </div>
+            </div>
+            <div class="centro">
                 <button class="boton-operaciones">&#247;</button>
                 <button class="boton-operaciones">x</button>
                 <button class="boton-operaciones">&#45;</button>
                 <button class="boton-operaciones" id="mas">+</button>
             </div>
-            <div class="botonFila">
+            <div class="derecha">
                 <button class="boton-manejo">CE</button>
                 <button class="boton-manejo">AC</button>
                 <button class="boton-manejo">M+</button>
             </div>
+
+            <button class="boton-operaciones" id="igual">=</button>
         </div>
-        <button class="boton-operaciones" id="igual">=</button>
     </div>
 
 
